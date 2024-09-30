@@ -4,7 +4,7 @@ import { client } from "../client";
 import { inAppWallet } from "thirdweb/wallets";
 import { shortenAddress } from "thirdweb/utils";
 import { getContract } from "thirdweb";
-import { baseSepolia, sepolia } from "thirdweb/chains";
+import { sepolia } from "thirdweb/chains";
 import { claimTo, getBalance } from "thirdweb/extensions/erc20";
 
 type Choice = 'Rock' | 'Paper' | 'Scissors';
